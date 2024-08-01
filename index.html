@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paraz</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="sidebar">
+            <!-- <div class="icon">
+                <h2 class="logo">sidebar</h2>
+            </div> -->
+
+            <div class="side-menu">
+                <ul>
+                    <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                                viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a> </li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li class="#"><a href="#">SERVICE</a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="#">HTML CLASS</a></li>
+                                <li><a href="#">CSS CLASS</a></li>
+                                <li><a href="#">JAVASCRIPT CLASS</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- <div id="search ">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div> -->
+        </div>
+
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Abdullahi</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li class="hidemenu"><a href="#">HOME</a></li>
+                    <li class="hidemenu"><a href="#">ABOUT</a></li>
+                    <li class="hidemenu menu-cont"><a href="#">SERVICE</a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="#">HTML CLASS</a></li>
+                                <li><a href="#">CSS CLASS</a></li>
+                                <li><a href="#">JAVASCRIPT CLASS</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="hidemenu"><a href="#">DESIGN</a></li>
+                    <li class="hidemenu"><a href="#">CONTACT</a></li>
+                    <li class="menu-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                            </svg></a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="content">
+                <h1>Web Design & <br><span>Development</span> <br>Course</h1>
+                <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque
+                    expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus
+                    <br> a quae totam ipsa illum minus laudantium?
+                </p>
+
+                <button class="cn"><a href="#">JOIN US</a></button>
+
+
+            </div>
+            <div class="form" id="form">
+                <form id="form" action="/">
+                    <h2>Login Here</h2>
+                    <div class="input-control">
+                        <input id="email" name="email" type="email" placeholder="Enter Email Here">
+                        <div class="error"></div>
+                    </div>
+                    <!-- <input type="email" id="name" name="email" placeholder="Enter Email Here"> -->
+                    <div class="input-control">
+                        <input id="password" name="password" type="password" placeholder="Enter Password Here">
+                        <div class="error"></div>
+                    </div>
+
+                    <!-- <input type="password" id="password" name="" placeholder="Enter Password Here"> -->
+                    <button type="submit" class="btnn " id="btn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                        <a href="signup.html">Sign up </a> here
+                    </p>
+                    <p class="liw">Log in with</p>
+
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script> -->
+</body>
+
+</html>
